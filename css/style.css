@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Roboto;
+    background: url("http://almode.ru/uploads/posts/2022-01/1642902833_32-almode-ru-p-serdtse-na-krasnom-fone-32.jpg");
+}
+img{
+    width: 100%;
+    height: 200px;
+}
+.header{
+    height: 240px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("https://sun9-east.userapi.com/sun9-58/s/v1/ig2/O7voP_gjXHS4fGjcBtVJuY31RirHa-c9-mhnVf2CNAlj8zjArggeAEQkympBLXA32xqtzh6chprvOA5mn3L1kPdI.jpg?size=162x120&quality=96&type=album");
+    background-repeat: no-repeat;
+    background-size: 2000px 240px;
+    background-position: center;
+}
+.title {
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 56px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #f05cc3;
+    border: 5px solid #ee5c74;
+    border-radius: 10px;
+    padding: 16px 25px;
+}
+.container {
+    padding: 50px 150px;    
+    display: flex;
+    justify-content: space-between;
+}
+.block{
+    width: 290px;
+    border: 3px solid #00bdf7;
+    border-radius: 10px;
+    padding: 16px;
+}
+.block-title{
+    font-size: 36px;
+    font-weight: 300;
+    color: #0112ff;
+    text-align: center;
+    margin: 20px;
+}
+.block-description{
+    font-size: 24px;
+    font-weight: 500;
+    color: #00ff15;
+    text-align: center;
+}
+.lovesomama{
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.lovesomama:hover{
+    background: url("https://i.ytimg.com/vi/J3bZ8L0Uz50/maxresdefault.jpg");
+    background-size: 2000px 300px;
+}
+.mom{
+    font-size: 50px;
+    font-weight: 1000;
+    margin-top: 200px;
+    text-align: center;
+    color: rgb(45, 0, 56);
+}
+.mom:hover{
+    font-size: 0px;
+}
+
+
+
+
+
